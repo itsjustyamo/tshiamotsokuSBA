@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    
+    margin: vh;
+    background-image: url(photos/IMG_5511.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding: 100px;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#heading {
+    background-color: rgba(138, 85, 85, 0.843);
+   
+}
+
+button {
+    cursor: grabbing;
+    background-color: plum;
+    border-radius: 20%;
+}
+
+
+
+button :hover{
+    cursor: grabbing;
+    background-color: plum;
+    border-radius: 50%;
+}

@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    margin: 0%;
+
+}
+
+#container {
+    display:flex;
+    border: black;
+    border-radius: 1px;
+    border-style: groove;
+    border-color:  black ;
+    background-image: url(photos/IMG_5510.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    padding-top: 60%;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    border-radius: 1px;
+    border-style: groove;
+    border-color:  black;
+    padding-bottom: 0%;
+}
+
+.text{
+    position:absolute;
+    bottom: 8px;
+    top: 16px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+}
+
+button {
+    background-color:  palevioletred;
+    border-radius: 20%;
+    color: aliceblue;
+}
+
+button :hover{
+    cursor: grabbing;
+    background-color: plum;
+    border-radius: 50%;
+
+
+}
+
+.containerTwo {
+    display:flex;
+    border-radius: 1px;
+    border-style: groove;
+    border-color:  white;
+    position:absolute;
+    margin-top: 80%;
+    width: 100%;
+    color: white;
+    line-height: 100%;
+    
+}
+
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+        float: inline-end;
+    }
+h1 {
+    text-align: center;
+    color: black;
+    padding: auto;
+}
+
+
+main {
+    display:flex;
+    border-radius: 1px;
+    border-style: groove;
+    border-color: black ;
+    width: 100%;
+    position:absolute;
+    justify-content: center;   
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
